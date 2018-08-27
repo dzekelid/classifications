@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datu
 x-kinRank: "9"
 x-alexaRank: "514549"
 tags: Classifications
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/datumbox/apis.md
 specificationVersion: "0.14"
 apis:
+- name: DatumBox - Identifies the Topic of the Document
+  x-api-slug: topicclassification-json-post
+  description: The Topic Classification function assigns documents in 12 thematic
+    categories based on their keywords, idioms and jargon. It can be used to identify
+    the topic of the texts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
+  humanURL: http://datumbox.com
+  baseURL: https://api.datumbox.com/1.0/
+  tags: Machine Learning, Content, Stack Network, API Provider, API Service Provider,
+    SaaS, Technology, Enterprise, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/datumbox/topicclassification-json-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/datumbox/topicclassification-json-post-openapi.md
 - name: DatumBox - Identifies the Topic of the Document
   x-api-slug: topicclassification-json-post
   description: The Topic Classification function assigns documents in 12 thematic

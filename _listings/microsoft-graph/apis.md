@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Classifications
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
@@ -133,6 +133,64 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/usersidinferenceclassificationoverridesid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/usersidinferenceclassificationoverridesid-delete-openapi.md
+- name: Microsoft Graph API - Delete Inference Classification Override
+  x-api-slug: usersidinferenceclassificationoverridesid-delete
+  description: Delete inferenceClassificationOverride Delete an override specified
+    by its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/usersidinferenceclassificationoverridesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/usersidinferenceclassificationoverridesid-delete-openapi.md
+- name: Microsoft Graph API - Delete Inference Classification Override
+  x-api-slug: meinferenceclassificationoverridesid-delete
+  description: Delete inferenceClassificationOverride Delete an override specified
+    by its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/meinferenceclassificationoverridesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/meinferenceclassificationoverridesid-delete-openapi.md
+- name: Microsoft Graph API - Create Inference Classification Override
+  x-api-slug: usersidinferenceclassificationoverrides-post
+  description: Create inferenceClassificationOverride Create an override for a sender
+    identified by an SMTP address. Future messages from that SMTP address will be
+    consistently classified as specified in the override.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/usersidinferenceclassificationoverrides-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/usersidinferenceclassificationoverrides-post-openapi.md
+- name: Microsoft Graph API - Create Inference Classification Override
+  x-api-slug: meinferenceclassificationoverrides-post
+  description: Create inferenceClassificationOverride Create an override for a sender
+    identified by an SMTP address. Future messages from that SMTP address will be
+    consistently classified as specified in the override.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/meinferenceclassificationoverrides-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/meinferenceclassificationoverrides-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://messente.api.gallery.streamdata.io

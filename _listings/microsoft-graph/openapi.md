@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 1
@@ -110,4 +109,3 @@ paths:
       - Inference
       - Classification
       - Override
----

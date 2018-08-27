@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Classifications",
+	"description": "This is a repository of classifications APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/classifications.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://classifications.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Diffbot",
+			"x-api-slug": "diffbot",
+			"description": "Never write another web scraper. Diffbot automates web data extraction from any website using AI, computer vision, &amp; machine learning.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg",
+			"humanURL": "http://www.diffbot.com/our-apis/follow/",
+			"baseURL": "https:////",
+			"tags": "Classifications",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/diffbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CEPT Systems",
+			"x-api-slug": "cept-systems",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1391-cept-systems.jpg",
+			"humanURL": "https://cept.3scale.net/docs",
+			"baseURL": "https:///",
+			"tags": "Classifications",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/cept-systems/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Treparel KMX for OEM",
+			"x-api-slug": "treparel-kmx-for-oem",
+			"description": "KMX is an integral part of our IP analysis toolbox. It contributes to our capability of making added value IP analyses of technologies and competitors to s",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1590-treparel-kmx-for-oem.jpg",
+			"humanURL": "http://treparel.com/kmx-for-oem/",
+			"baseURL": "https:///",
+			"tags": "Classifications",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/treparel-kmx-for-oem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datumbox",
+			"x-api-slug": "datumbox",
+			"description": "Build quickly and easily Intelligent Applications by using the power of Machine Learning!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg",
+			"humanURL": "http://datumbox.com",
+			"baseURL": "https://api.datumbox.com/1.0/",
+			"tags": "Classifications",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/datumbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Classifications",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Classifications",
+	"include": [
+		{
+			"name": "Diffbot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/diffbot/apis.yaml"
+		},
+		{
+			"name": "CEPT Systems",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/cept-systems/apis.yaml"
+		},
+		{
+			"name": "Treparel KMX for OEM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/treparel-kmx-for-oem/apis.yaml"
+		},
+		{
+			"name": "Datumbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/datumbox/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/microsoft-graph/apis.yaml"
+		}
+	]
+}

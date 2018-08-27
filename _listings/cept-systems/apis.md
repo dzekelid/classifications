@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1391-cept-
 x-kinRank: "7"
 x-alexaRank: "343966"
 tags: Classifications
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/classifications/master/_listings/cept-systems/apis.md
 specificationVersion: "0.14"
 apis: []
